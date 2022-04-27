@@ -11,8 +11,6 @@ public class Driver {
 	
 	public static void main(String[] args) {
 		
-		args = new String[] {"compare", "/home/guninvalid/Pictures", "--debug", "--nogui"};
-		
 		try {
 			
 			switch (args[0].toLowerCase()) {
